@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Convite - Deja</title>
+<title>Convite - Aniversário de 18 anos da Cléo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Permanent+Marker&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -668,13 +668,13 @@ envFrame.addEventListener('keypress', e=>{
   const rsvpName = document.getElementById('rsvpName');
   const rsvpYes = document.getElementById('rsvpYes');
   const rsvpNo = document.getElementById('rsvpNo');
-  const WHATSAPP_NUMBER = '5516988577884'; // <-- troque pelo número real (DDI+DDD+numero)
+  const WHATSAPP_NUMBER = '5516996094863'; // <-- troque pelo número real (DDI+DDD+numero)
 
   function buildLink(choice){
     const name = rsvpName.value.trim() || 'convidado(a)';
     const msg = choice === 'sim'
-      ? `Oii Di!! Eu ${name}. estou confirmada (o)!! Vamos comemorar juntos!!💓🎉 🎉💖`
-      : `Oi Di! Aqui é ${name}. Infelizmente não vou conseguir ir na sua festa dia 22/08, mas te desejo um dia incrível! 💕`;
+      ? `Oii Cléo!! Eu ${name}. estou confirmada (o)!! Vamos comemorar juntos!!💓🎉 🎉💖`
+      : `Oi Cléo! Aqui é ${name}. Infelizmente não vou conseguir ir na sua festa dia 22/08, mas te desejo um dia incrível! 💕`;
     return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
   }
   function refreshLinks(){
